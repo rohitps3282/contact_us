@@ -9,7 +9,10 @@ body {
 }
 
 .navhead{
+    /*
     background-color:black;
+    */
+    background-image: linear-gradient(to right, #5F0A87,#A4508B);
     padding: 35px 0;
 }
 .navhead a{
@@ -39,19 +42,13 @@ body {
     height: 100vh;
   }
 
-.Header
-{
-    margin-bottom: 8.7%;
-}
-
-
   /*
   Navbar section end
 
   */
 
   .first{
-      margin-top: 11%;
+      margin-top: 170px;
   }
 
   .first h3{
@@ -236,7 +233,7 @@ footer a{
     color: white;
 }
 .page-footer{
-    margin-top: -22px;
+    margin-top: -23px;
 }
 footer a:hover{
     text-decoration: none;
@@ -246,5 +243,112 @@ footer a:hover{
     color: white !important;
 }
 hr{
-    background-color: #6351ce !important;
+    background-color: white !important;
+}
+
+
+@media (max-width:991px)
+{
+    .slantdiv{
+        height: 1000px;
+    }
+    .contact{
+        margin-top: -1060px;
+        margin-bottom:1200 ;
+    }
+    .page-footer{
+        margin-top: 39px;
+    }
+    .contact
+    {
+        padding: 50px;
+    }
+    .container{
+        flex-direction: column; 
+    }
+    .container .contactInfo{
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .container .contactForm{
+        width: 100%;
+    }
+}
+
+@media (max-width:991px)
+{
+    .second{
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+}
+
+@media (max-width:650px)
+{
+    .first h3{
+        font-size: 35px;
+        font-weight: 900;
+    }
+}
+
+@media (max-width:470px)
+{
+    .first h3{
+        font-size: 30px;
+        font-weight: 900;
+    }
+    .contactForm h2{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:415px)
+{
+    .slantdiv{
+        height: 1050px;
+    }
+    .contact{
+        margin-top: -1100px;
+        margin-bottom:1200 ;
+    }
+    .page-footer{
+        margin-top: 85px;
+    }
+    .mail p{
+        font-size: 12px;
+    }
+    .first h3{
+        font-size: 25px;
+    }
+    .second{
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 15px;
+      }
+}
+
+
+
+@media (max-width:394px)
+{
+    .page-footer{
+        margin-top: 25px;
+    }
+}
+
+@media (max-width:379px)
+{
+    .page-footer{
+        margin-top: 25px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width:330px)
+{
+    .page-footer{
+        margin-top: -0px;
+    }
 }
